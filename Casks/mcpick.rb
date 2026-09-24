@@ -3,16 +3,16 @@ cask "mcpick" do
   version "0.1.0"
 
   on_macos do
-    sha256 "6c2fb75c39b875e743fdfe836677ea117f04d29eec4b7153b9eeb9384c204975"
+    sha256 "8da050089919bd0812d6d95e37b685f9f46a7cec438687c79a4f9005befc048e"
     url "https://github.com/cajbecu/mcpick/releases/download/v#{version}/mcpick_#{version}_darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "9a7c0b13ee79f84efee1ebcf8b50e3f44a11600a0565b2fbe4de2169026f3dfd"
+      sha256 "798d5156738c1cbe2dfba4dec432c56b3d99b867fbbcd991a87a3009c95aba2b"
       url "https://github.com/cajbecu/mcpick/releases/download/v#{version}/mcpick_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "157c508323879a62fa783a05528b65a4558b8aefe8fc3241b3b9f5179b30ab74"
+      sha256 "406a41a285e31355576e5af86ad46883c78fa05451b9c97c9c5b737b94476135"
       url "https://github.com/cajbecu/mcpick/releases/download/v#{version}/mcpick_#{version}_linux_amd64.tar.gz"
     end
   end
